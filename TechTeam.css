@@ -1,9 +1,10 @@
 #header	
 {
-	color: #ffffff;
+	color: #000000;
 	text-align: center;
 	margin: 0;
-	background-color: #ff9999;
+    line-height:2;
+	background-color: #ffffff;
 }	
 
 body 
@@ -16,13 +17,13 @@ body
 
 h1
 {
-	text-transform: uppercase;
-	color: #ff9999;
+	text-transform: normal;
+	color: #000000;
 }
 h2	
 {	
 	border-bottom: 1px solid #000000;
-	color: #ff9999;
+	color: #1E90FF;
 	font-size: 1.2em;
 	margin-right: 20px;
 	text-align: center;
@@ -31,7 +32,7 @@ h2
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 10;
     padding: 0;
     overflow: hidden;
     background-color: #333;
@@ -52,20 +53,21 @@ li a {
 li a:hover {
     background-color: #FF8C00;
 
-
+}
 table
 {
 	width: 100%;
 	margin: auto;
-	broder: 1px solid black;
+	broder: 2px solid black;
 }
 td, th 
 { 
-	padding:200px;
+	padding:20px;
 }
+    
 .altrow 
 { 
-	background-color:#008080;
+	background-color:#F0FFF0;
 }
 
 .floatright
@@ -73,14 +75,15 @@ td, th
 	padding-left: 20px;
 	float: right;
 }
+    
 #content
 {
-	padding-top: 10px;
-	padding-bottom: 4600px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
-	margin-left: 150px;
-	background-color: #FFF0E3;
+	margin-left: 10px;
+	background-color: #ffffff;
 	color: #000000;
 }
 
@@ -102,6 +105,7 @@ td, th
 {
 	clear: left;
 }
+    
 .details
 {
 	padding-left: 20%;
@@ -114,7 +118,7 @@ img
 }
 #footer 
 { 
-	background-color: #ff9999;
+	background-color: #32CD32;
 	color: #000000;
 	font-size: .90em;
 	font-style: italic;
@@ -126,13 +130,13 @@ img
 }
 #footer a:link
 {
-	color: #ffffcc;
+	color: #FFFF00;
 	
 }
 
 #footer a:visted
 {
-	color: #f2eab7;
+	color: #87CEFA;
 }
 
 #footer  a:hover
@@ -141,12 +145,13 @@ img
 }
 #wrapper
 {
-	background-color: #E6E6FA;
-	min-width: 900px;
-	box-shadow: 5px 5px 5px #ffffff;
+	background-color: #B0E0E6;
+	min-width: 1200px;
+    min-height: 1200x;
+	box-shadow: 20px 20px 20px #00ffff;
 	margin-left: auto;
 	margin-right:auto;
-	width:80%;
+	width:90%;
 }
 
 
